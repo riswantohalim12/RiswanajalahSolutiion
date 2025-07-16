@@ -148,24 +148,18 @@
                     </div>
                     <div class="contact-form">
                         <h3>Kirim Pesan</h3>
-                        <form id="mainContactForm">
+                        <form id="contact-form" action="https://formspree.io/f/xqalkkzj" method="POST" class="contact-form">
                             <div class="form-group">
-                                <label for="namaLengkap">Nama Lengkap</label>
-                                <input type="text" id="namaLengkap" name="namaLengkap" required>
+                                <input type="text" name="name" placeholder="Nama Anda" required>
                             </div>
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
+                                <input type="email" name="email" placeholder="Email Anda" required>
                             </div>
                             <div class="form-group">
-                                <label for="subjek">Subjek</label>
-                                <input type="text" id="subjek" name="subjek" required>
+                                <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
                             </div>
-                            <div class="form-group">
-                                <label for="pesanAnda">Pesan Anda</label>
-                                <textarea id="pesanAnda" name="pesanAnda" rows="5" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Kirim Pesan</button>
+                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                            <p id="form-status" style="margin-top: 1rem; color: var(--secondary-color);"></p>
                         </form>
                     </div>
                 </div>
@@ -196,8 +190,8 @@
                 <div class="footer-contact">
                     <h4>Hubungi Kami</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Jl. Tekno No. 123, Tangsel</p>
-                    <p><i class="fas fa-phone"></i> +62 821-XXXX-XXXX</p>
-                    <p><i class="fas fa-envelope"></i> info@Riswanajalah.com</p>
+                    <p><i class="fas fa-phone"></i> +62 813-1211-8909</p>
+                    <p><i class="fas fa-envelope"></i> riswantohalim319@gmail.com</p>
                 </div>
                 <div class="footer-social">
                     <h4>Ikuti Kami</h4>
